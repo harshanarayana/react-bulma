@@ -1,0 +1,9 @@
+{
+  "flow.enabled": true,
+  "flow.useNPMPackagedFlow": true,
+  "javascript.validate.enable": false,
+  "flow.pathToFlow": "/usr/local/bin/flow",
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}

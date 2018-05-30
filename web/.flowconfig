@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules/autoprefixer/*
+.*/node_modules/boxen/*
+.*/node_modules/eslint/*
+.*/node_modules/icss-utils/*
+.*/node_modules/inquirer/*
+.*/node_modules/postcss*
+.*/node_modules/table/*
+.*/node_modules/update-notifier/*
+
+[include]
+
+[libs]
+
+[options]

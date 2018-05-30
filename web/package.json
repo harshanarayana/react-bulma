@@ -1,0 +1,37 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/react-fontawesome": "^0.0.20",
+    "axios": "^0.18.0",
+    "bloomer": "^0.6.3",
+    "bulma": "^0.7.1",
+    "history": "^4.7.2",
+    "react": "^16.4.0",
+    "react-axios": "^2.0.0",
+    "react-dom": "^16.4.0",
+    "react-fontawesome": "^1.6.1",
+    "react-google-auth": "^0.4.1",
+    "react-google-login": "^3.2.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build-babel": "babel src/ -d lib/",
+    "prepublish": "yarn run build-babel"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.73.0",
+    "flow-typed": "^2.4.0"
+  }
+}
